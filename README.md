@@ -1,7 +1,3 @@
-# A-star Alogrithm
-
-This project is for the implementation of the A\* algorithm in python with using ammarnath library.
-
 # About A\* Algorithm
 
 The A\* algorithm is a widely used pathfinding technique that determines the shortest path between two points in a graph or grid. It calculates the total cost of a path using a combination of the actual cost from the start to a node (g(n)) and an estimated cost to the goal (h(n)), expressed as f(n)=g(n)+h(n). The algorithm begins at the start node, exploring neighboring nodes by selecting the one with the lowest f(n) value, which reflects the most promising path.
